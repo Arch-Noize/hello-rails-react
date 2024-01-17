@@ -1,14 +1,11 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Greeting from './Greeting';
 
-const App = () => {
-    return (
-        <div>
-        <h1>Hello, world!</h1>
-        </div>
-    );
-}
+const App = () => (
+  <Routes>
+    <Route path="/" element={<Greeting />} />
+  </Routes>
+);
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-export default App
+export default App;
