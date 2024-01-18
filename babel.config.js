@@ -1,3 +1,4 @@
+// babel.config.js
 module.exports = function(api) {
   var validEnv = ['development', 'test', 'production']
   var currentEnv = api.env()
@@ -28,8 +29,7 @@ module.exports = function(api) {
       (isProductionEnv || isDevelopmentEnv) && [
         '@babel/preset-env',
         {
-          forceAllTransforms: true,
-          useBuiltIns: 'entry',
+          useBuiltIns: 'usage',
           corejs: 3,
           modules: false,
           exclude: ['transform-typeof-symbol']
@@ -66,12 +66,7 @@ module.exports = function(api) {
           loose: true
         }
       ],
-      [
-        '@babel/plugin-transform-runtime',
-        {
-          helpers: false
-        }
-      ],
+      '@babel/plugin-transform-runtime',
       [
         '@babel/plugin-transform-regenerator',
         {
