@@ -66,6 +66,8 @@ group :test do
   gem 'selenium-webdriver'
 end
 
+gem 'webpacker'
+
 gem 'rack-cors'
 
 gem 'rubocop'
