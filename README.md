@@ -151,7 +151,7 @@ If you like this project kindly give it a star⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-The design used for this webapp was created by [Gregoire Vella](https://www.behance.net/gregoirevella) and is based on his [Snapscan](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) design I would like to thank [Microverse](https://github.com/microverseinc) for the immense support. 
+I would like to thank [Aakash Verma](https://github.com/skyv26) and [Temitope Akinlade](https://github.com/mckent05) for the immense support troubleshooting my errors. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
